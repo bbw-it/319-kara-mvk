@@ -126,7 +126,7 @@ public record KaraWorld(Kara kara, ImmutableSet leafs, ImmutableSet trees, Immut
 		return trees.contains(kara.right().move().position);
 	}
 
-	enum Direction {
+	public enum Direction {
 		N, E, S, W;
 
 		Direction left() {

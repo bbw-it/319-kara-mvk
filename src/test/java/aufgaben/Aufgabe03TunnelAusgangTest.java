@@ -13,7 +13,7 @@ import org.junit.jupiter.api.Test;
 class Aufgabe03TunnelAusgangTest extends JavaKaraTestBase {
 
 	/**
-	 * Bekannte Elemente weiter verwenden...
+	 * Keine neuen Ausdrücke, aber <a href="https://www.swisseduc.ch/informatik/karatojava/javakara/material/docs/neuemethoden.pdf">Tipps zu eigenen Methoden</a>.
 	 */
 	@Override
 	protected void myProgram() {

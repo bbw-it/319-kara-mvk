@@ -17,14 +17,16 @@ class Aufgabe01KleeblattEssenTest extends JavaKaraTestBase {
 	 * <ul>
 	 *     <li>Aktionen: {@code move()}, {@code putLeaf()}, {@code removeLeaf()}</li>
 	 *     <li>Sensoren: {@code onLeaf()}</li>
-	 *     <li>Kontrollstrukturen: <a href="https://javabeginners.de/Schleifen_und_Verzweigungen/while_-Schleife.php">while-Schleifen</a></li>
+	 *     <li>Kontrollstrukturen:
+	 *     <a href="https://javabeginners.de/Schleifen_und_Verzweigungen/while_-Schleife.php">while-Schleifen</a>,
+	 *     <a href="https://javabeginners.de/Schleifen_und_Verzweigungen/if_-Verzweigung.php">If-Verzweigung</a>
+	 *     </li>
+	 *     <li><a href="https://www.swisseduc.ch/informatik/karatojava/javakara/material/docs/whileschleife.pdf">Lösung und weitere Aufgaben</a></li>
 	 * </ul>
 	 */
 	@Override
 	protected void myProgram() {
-		// Hier schreiben Sie Ihr Programm, z.B.:
-		move();
-		move();
+
 	}
 
 	// Die folgenden Zeilen sollen nicht verändert werden

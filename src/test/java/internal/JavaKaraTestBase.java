@@ -18,6 +18,12 @@ public abstract class JavaKaraTestBase {
 
 	private KaraEngine engine;
 
+	/**
+	 * @deprecated The SwissEduc variant uses an {@code kara} attribute. Here this is not needed. Drop it.
+	 */
+	@Deprecated
+	protected JavaKaraTestBase kara = this; // to make the "official" solutions work, too.
+
 	protected abstract void myProgram();
 
 	protected long sleepMillis() {
@@ -123,6 +129,18 @@ public abstract class JavaKaraTestBase {
 			assertEquals(x, actual.kara().position().x(), "\uD83D\uDC1E Kara is on the wrong x-position");
 			assertEquals(y, actual.kara().position().y(), "\uD83D\uDC1E Kara is on the wrong y-position");
 			return this;
+		}
+
+		public KaraAssert karaFaces(String direction) {
+			assertEquals(KaraWorld.Direction.valueOf(direction), actual.kara().facing(), "\uD83D\uDC1E Kara is facing the wrong way");
+			return this;
+		}
+
+		public KaraAssert sameAs(String expected) {
+			var expectedWorld = KaraWorld.fromString(expected);
+			karaOn(expectedWorld.kara().position().x(), expectedWorld.kara().position().y());
+			karaFaces(expectedWorld.kara().facing().name());
+			return sameObjectsAs(expected);
 		}
 
 		public KaraAssert sameObjectsAs(String expected) {
