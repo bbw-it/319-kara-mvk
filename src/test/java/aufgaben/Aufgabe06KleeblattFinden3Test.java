@@ -11,13 +11,14 @@ import org.junit.jupiter.api.Test;
  * aus ist auf das aktuelle Feld gekommen. Das heisst, genau hinter einem der drei Fragezeichen in der folgenden
  * Abbildung ist ein leeres Feld, hinter den beiden anderen Fragezeichen liegen Felder mit B&auml;umen:</p>
  * <img src="../../resources/doc-files/walk-invariant.gif" />
+ * <p>Das Programm soll enden, sobald Kara das Kleeblatt auf dem Rundgang findet.</p>
  */
 class Aufgabe06KleeblattFinden3Test extends JavaKaraTestBase {
 
 	@Override
 	protected void myProgram() {
 
-	}
+    }
 
 	@Test
 	void world1() {
