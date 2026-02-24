@@ -55,7 +55,7 @@ class Aufgabe18SchachbrettTest extends JavaKaraTestBase {
 				t |
 				""", x -> x.sameObjectsAs("""
 				l |
-				 l|
+				tl|
 				"""));
 	}
 }
