@@ -9,7 +9,7 @@ import org.junit.jupiter.api.Test;
  * Auf dem Startfeld soll jeweils ein Blatt liegen.
  * Es gibt in dieser Welt keinen Rand und initial keine Blätter.
  * Wenn Kara die Welt z.B. nach oben hin verlässt, betritt er die Welt automatisch wider von unten.
- * Ein Baum kann den Weg versperren, dieser wird jedoch nie auf Kleeblattplatz liegen.</p>
+ * In jeder Welt versperrt ein Baum den Weg. Dieser wird jedoch nie auf einem Kleeblattplatz liegen.</p>
  */
 class Aufgabe18SchachbrettTest extends JavaKaraTestBase {
 
