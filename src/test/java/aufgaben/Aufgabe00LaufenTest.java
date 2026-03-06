@@ -9,6 +9,7 @@ import org.junit.jupiter.api.Test;
  * <p>KARA steht vor einem Baum, hinter dem sich ein Kleeblatt befindet. KARA soll um
  * den Baum herumgehen, das Kleeblatt aufnehmen, es einen Schritt weiter ablegen, einen Schritt
  * vorgehen und sich umdrehen.</p>
+ * <!-- `☰` | `File` | `Settings` | `Editor` | `General` | `Appearance` | ☑ Render documentation comments | `OK` -->
  */
 class Aufgabe00LaufenTest extends JavaKaraTestBase {
 

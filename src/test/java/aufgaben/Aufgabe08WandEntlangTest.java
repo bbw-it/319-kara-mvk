@@ -8,7 +8,7 @@ import org.junit.jupiter.api.Test;
  * <img src="../../resources/doc-files/followwall.gif" />
  * <p>Kara möchte einen Wald im Uhrzeigersinn patrouillieren.
  * Programmieren Sie Kara so, dass er im Uhrzeigersinn um diesen Wald läuft
- * und an derselben Stelle wider stoppt.</p>
+ * und an derselben Stelle wieder stoppt.</p>
  */
 class Aufgabe08WandEntlangTest extends JavaKaraTestBase {
 

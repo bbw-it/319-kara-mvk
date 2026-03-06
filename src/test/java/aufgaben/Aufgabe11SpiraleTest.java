@@ -19,7 +19,7 @@ class Aufgabe11SpiraleTest extends JavaKaraTestBase {
 	@Override
 	protected void myProgram() {
 		int d = 0;
-		while (d < 21) {
+		while (d < 19) {
 			// ...
 			d++;
 		}
@@ -49,6 +49,28 @@ class Aufgabe11SpiraleTest extends JavaKaraTestBase {
 				                     |
 				                     |
 				                     |
-				""");
+				""", x -> x.sameObjectsAs("""
+				                     |
+				  llllllllllllllllll |
+				  l                l |
+				  l llllllllllllll l |
+				  l l            l l |
+				  l l llllllllll l l |
+				  l l l        l l l |
+				  l l l llllll l l l |
+				  l l l l    l l l l |
+				  l l l l ll l l l l |
+				  l l l l  l l l l l |
+				  l l l llll l l l l |
+				  l l l      l l l l |
+				  l l llllllll l l l |
+				  l l          l l l |
+				  l llllllllllll l l |
+				  l              l l |
+				  llllllllllllllll l |
+				                   l |
+				 lllllllllllllllllll |
+				                     |
+				"""));
 	}
 }

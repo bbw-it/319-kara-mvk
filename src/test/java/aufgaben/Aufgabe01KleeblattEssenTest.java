@@ -16,7 +16,7 @@ class Aufgabe01KleeblattEssenTest extends JavaKaraTestBase {
 	 * Neu:
 	 * <ul>
 	 *     <li>Aktionen: {@code move()}, {@code putLeaf()}, {@code removeLeaf()}</li>
-	 *     <li>Sensoren: {@code onLeaf()}</li>
+	 *     <li>Sensoren: {@code onLeaf()}, {@code treeFront()} (und kein Baum negieren wir: {@code !treeFront()})</li>
 	 *     <li>Kontrollstrukturen:
 	 *     <a href="https://javabeginners.de/Schleifen_und_Verzweigungen/while_-Schleife.php">while-Schleifen</a>,
 	 *     <a href="https://javabeginners.de/Schleifen_und_Verzweigungen/if_-Verzweigung.php">If-Verzweigung</a>

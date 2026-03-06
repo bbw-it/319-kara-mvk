@@ -6,6 +6,10 @@ import org.junit.jupiter.api.Test;
 /**
  * Kara will den Pilz am nächsten an der Startposition finden und zurückbringen.
  * Pilze liegen immer horizontal und/oder vertikal zu Karas Startposition.
+ * Wichtige Hinweise:
+ * - Im Gegensatz zu Kleeblättern können Pilze nicht gesetzt und weggenommen werden.
+ * Pilze müssen von Kara verschoben werden, indem Kara dagegenläuft.
+ * - Die Welten sind erneut ohne feste Grösse. Kara kann die Seite über den Rand wechseln.
  */
 class Aufgabe20PilzsucheTest extends JavaKaraTestBase {
 

@@ -15,7 +15,7 @@ class Aufgabe02TunnelEingangTest extends JavaKaraTestBase {
 	/**
 	 * Neu:
 	 * <ul>
-	 *     <li>Aktionen: {@code move()}, {@code putLeaf()}, {@code removeLeaf()}</li>
+	 *     <li>Aktionen: {@code move()}</li>
 	 *     <li>Sensoren: {@code treeLeft()}, {@code treeRight()}</li>
 	 *     <li>Kontrollstrukturen: <a href="https://javabeginners.de/Grundlagen/Datentypen/boolsche_Ausdruecke.php">boolsche Ausdrücke</a></li>
 	 *     <li>Zusatzaufgaben: <a href="https://www.swisseduc.ch/informatik/karatojava/javakara/material/docs/logik.pdf">Logik</a></li>

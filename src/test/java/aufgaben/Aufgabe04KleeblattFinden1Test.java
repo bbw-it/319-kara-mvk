@@ -23,10 +23,10 @@ class Aufgabe04KleeblattFinden1Test extends JavaKaraTestBase {
 
 	}
 
-	// Tipp: folgende Funktion beschleunigt Kara
+	// TIPP: Folgende Funktion beschleunigt Kara. Sie kann auch in anderen Aufgaben verwendet werden.
 	@Override
 	protected long sleepMillis() {
-		return 20;
+		return 50;
 	}
 
 	@Test
